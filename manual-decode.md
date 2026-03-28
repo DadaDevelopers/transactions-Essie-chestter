@@ -1,0 +1,38 @@
+=== Manual Transaction Decode ===
+
+Transaction Hex:
+0200000000010131811cd355c357e0e01437d9bcf690df824e9ff785012b6115dfae3d8e8b36c10100000000fdffffff0220a107000000000016001485d78eb795bd9c8a21afefc8b6fdaedf718368094c08100000000000160014840ab165c9c2555d4a31b9208ad806f89d2535e20247304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01210260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff43030e00
+
+Version: 2
+Marker: 00
+Flag: 01
+
+Input Count: 1
+
+Input #1:
+Previous TX Hash: 31811cd355c357e0e01437d9bcf690df824e9ff785012b6115dfae3d8e8b36c1
+Previous Output Index: 1
+Script Length: 00
+ScriptSig: (empty because SegWit)
+Sequence: fdffffff
+
+Output Count: 2
+
+Output #1:
+Amount (satoshis): 500000
+Script Length: 22
+ScriptPubKey: 001485d78eb795bd9c8a21afefc8b6fdaedf71836809
+
+Output #2:
+Amount (satoshis): 1050700
+Script Length: 22
+ScriptPubKey: 0014840ab165c9c2555d4a31b9208ad806f89d2535e2
+
+Witness Data:
+Signature:
+304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01
+
+Public Key:
+0260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff
+
+Locktime: 918339
